@@ -21,28 +21,5 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "about": MessageLookupByLibrary.simpleMessage("About"),
-        "appearance": MessageLookupByLibrary.simpleMessage("Appearance"),
-        "byPrice": MessageLookupByLibrary.simpleMessage("By Price"),
-        "codeAndFingerPrints":
-            MessageLookupByLibrary.simpleMessage("Code and fingerprint"),
-        "currencies": MessageLookupByLibrary.simpleMessage("Currencies"),
-        "darkTheme": MessageLookupByLibrary.simpleMessage("Dark theme"),
-        "enterCode": MessageLookupByLibrary.simpleMessage("Enter code"),
-        "errorCode": MessageLookupByLibrary.simpleMessage("Error code"),
-        "generalSettings":
-            MessageLookupByLibrary.simpleMessage("General settings"),
-        "languages": MessageLookupByLibrary.simpleMessage("Languages"),
-        "lightTheme": MessageLookupByLibrary.simpleMessage("Light theme"),
-        "lockAndSecurity":
-            MessageLookupByLibrary.simpleMessage("Lock and Security"),
-        "logIn": MessageLookupByLibrary.simpleMessage("Log in"),
-        "logOut": MessageLookupByLibrary.simpleMessage("Log out"),
-        "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
-        "seeMore": MessageLookupByLibrary.simpleMessage("See more"),
-        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
-        "sortBy": MessageLookupByLibrary.simpleMessage("Sort By"),
-        "update": MessageLookupByLibrary.simpleMessage("update")
-      };
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
 }
